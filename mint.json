@@ -1,29 +1,27 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Mixpost Docs",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#4F46BB",
+    "light": "#958FD6",
+    "dark": "#4F46BB",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#4F46BB",
+      "to": "#FFAB4C"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
+  "topbarLinks": [],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Back to Mixpost",
+    "url": "https://mixpost.app"
+  },
+  "primaryTab": {
+    "name": "Self-Hosting"
   },
   "tabs": [
     {
@@ -33,19 +31,19 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Roadmap",
+      "icon": "list",
+      "url": "https://roadmap.mixpost.app"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Discord Community",
+      "icon": "discord",
+      "url": "https://mixpost.app/discord"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Facebook Community",
+      "icon": "facebook",
+      "url": "https://mixpost.app/discord"
     }
   ],
   "navigation": [
@@ -54,7 +52,11 @@
       "pages": [
         "introduction",
         "quickstart",
-        "development"
+        "development",
+        {
+          "group": "Nested Reference Pages",
+          "pages": ["nested-reference-page"]
+      }
       ]
     },
     {
@@ -84,8 +86,11 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/getmixpost",
+    "facebook": "https://facebook.com/getmixpost",
+    "instagram": "https://www.instagram.com/getmixpost/",
+    "linkedin": "https://www.linkedin.com/showcase/mixpost/",
+    "youtube": "https://www.youtube.com/@getmixpost/",
+    "github": "https://github.com/inovector/mixpost"
   }
 }
